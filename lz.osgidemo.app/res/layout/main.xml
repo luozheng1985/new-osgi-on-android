@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E0E0E0"
+    >
+
+    <Button
+        android:id="@+id/btn_install"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="启动模块" />
+
+    <Button
+        android:id="@+id/btn_uninstall"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="卸载模块" />
+    
+	<EditText
+	    android:id="@+id/edit_message"
+	    android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+	    android:layout_marginTop="20dip"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="10"
+	    android:minLines="7"
+	    android:hint="message "
+	    />
+</LinearLayout>
