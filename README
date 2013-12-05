@@ -1,0 +1,7 @@
+1.该项目参考：https://github.com/zstorok/android-osgi-demo
+
+2.项目配置环境：Eclipse Standard和Equinox（http://download.eclipse.org/equinox/）
+
+3.关于如何开始：http://osgi.com.cn/article/7289228
+
+4.关于FELIX相关源码：http://grepcode.com/file/repo1.maven.org/maven2/org.apache.felix/org.apache.felix.framework/2.0.5/org/apache/felix/framework/Felix.java
